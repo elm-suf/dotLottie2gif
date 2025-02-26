@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "tsx dotLottie2gif.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Abdelrahman Ashraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "tsx": "4.7.0"
+  },
+  "dependencies": {
+    "@lottiefiles/dotlottie-web": "^0.11.1",
+    "@napi-rs/canvas": "^0.1.44",
+    "gif-encoder": "^0.7.2"
+  }
+}
